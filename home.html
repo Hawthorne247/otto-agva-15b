@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" >
+  </head>
+  <body>
+        <div class="menu-layout">
+      <div class="menu-stem"><a href="home.html">Home</a></div>
+      <div class="menu-stem"><a href="ProductsService.html"> Products & Service</a></div>
+      <div class="menu-stem"><a href="contactus.html"> Contact Us</a></div>
+</div>
+    
+    <div class="column-layout">
+      <div class="menu">
+        <h2>Welcome to Nora's Nook</h2>
+        
+        <p>At Nora’s Nook, the pace is intentionally unhurried. Sunlight drifts through the windows in the early hours, catching the edges of freshly baked scones and the swirl of steamed milk rising from the barista’s counter. Families often wander in with weekend ease, children choosing a treat from the pastry case while parents settle into the cushioned corners that give the shop its name. It’s the kind of place where regulars greet each other by name and newcomers are met with a smile that feels like an invitation.
+        </p>
+        <p>The shop’s shelves are dotted with well-loved novels, local art, and the occasional handwritten note left behind by past visitors. Students, freelancers, and dreamers often claim a cozy table for an afternoon, finding that the gentle soundtrack of quiet chatter and clinking cups makes the perfect backdrop for getting things done. Nora’s Nook thrives on these small, human moments—reading, chatting, working—and has become a little haven where community grows naturally, one cup and one conversation at a time.
+        </p>
+      </div>
+      <div class="content">
+        
+        <img src="Noras Nook.jpeg" alt="logo">
+        <ul>
+        <li> Coffee</li>
+        <li>Game Nights</li>
+        <li>Bakery</li>
+      </ul>
+      </div> 
+      </div>
+    <div id="specialoffers" class="call-outs-container">
+      <div class="call-out">
+        <h4>🍪Family Favoite Deals☕</h4>
+        <p>Bring the whole crew to Nora’s Nook and receive 10% off any purchase of two drinks and a pastry. It’s our way of making your family time a little sweeter—and a little more delicious.
+        </p>
+        <a href="learnmore.html"> Learn More</a>
+      </div>
+      <div class="call-out">
+        <h4>🎉Nook Perk of the Week!🎉</h4>
+        <p>Stop by Nora’s Nook and get $1 off any drink when you show us a book you’re currently reading—e-reader counts too! Because nothing pairs better with a good story than a great cup of coffee.
+        </p>
+        <a href="learnmore.html"> Learn More</a>
+      </div>
+      </div>
+      <div style="text-align:center;">
+        <button id="hidebutton" onclick="hideOffers()">Hide Offers</button></div>
+      <script>
+        function hideOffers() {
+          var x= document.getElementById("specialoffers");
+          var y = document.getElementById("hidebutton");
+          x.style.display = "none";
+          y.style.display = "none";
+          
+        }
+      </script>
+      </body>
+</html>
